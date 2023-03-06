@@ -21,7 +21,7 @@ Run the Python code.
 Enter the command to execute on the target system when prompted by the code.
 The command will be executed on the target system.
 Mitigation:
-Zyxel has released a firmware update (version V5.13(AAXA.8)C0) that addresses this vulnerability. It is recommended to update the firmware to the latest version as soon as possible.
+It is recommended to update the firmware to the latest version as soon as possible.
 
 Alternatively, administrators can block external access to the router's web interface or implement access controls to limit the exposure of the vulnerability.
 
