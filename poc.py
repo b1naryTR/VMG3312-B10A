@@ -1,8 +1,8 @@
 import requests
 
-ip = '85.105.16.101'#input('IP: ')
-username = 'admin'#input('Kullanıcı Adı: ')
-password = '310894'#input('Şifre: ')
+ip = input('IP: ')
+username = input('Kullanıcı Adı: ')
+password = input('Şifre: ')
 
 url = 'http://' + ip + '/login/login-page.cgi'
 params = {'AuthName': username, 'AuthPassword': password}
