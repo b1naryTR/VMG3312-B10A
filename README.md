@@ -20,10 +20,11 @@ Replace the "ip", "username", and "password" values in the code with the appropr
 Run the Python code.
 Enter the command to execute on the target system when prompted by the code.
 The command will be executed on the target system.
-Mitigation:
+
+## Mitigation:
 It is recommended to update the firmware to the latest version as soon as possible.
 
 Alternatively, administrators can block external access to the router's web interface or implement access controls to limit the exposure of the vulnerability.
 
 ## Disclaimer:
-This vulnerability was discovered by [Insert Name] and reported to Zyxel. The information provided in this README file is for educational purposes only. The author is not responsible for any misuse or damage caused by the exploitation of this vulnerability. It is the responsibility of the user to ensure that any actions taken comply with all applicable laws and regulations.
+This vulnerability was discovered by Ibrahim Tekin and reported to Zyxel. The information provided in this README file is for educational purposes only. The author is not responsible for any misuse or damage caused by the exploitation of this vulnerability. It is the responsibility of the user to ensure that any actions taken comply with all applicable laws and regulations.
