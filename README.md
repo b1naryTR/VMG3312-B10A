@@ -10,7 +10,7 @@ The vulnerability is caused by a lack of input validation in the "diagAddr" para
 An attacker can exploit this vulnerability to execute arbitrary code on the target system. This can result in the compromise of sensitive data, unauthorized access to the router, and possible lateral movement within the network.
 
 ## Prerequisites:
-To exploit this vulnerability, an attacker needs to have access to the router's web interface. The vulnerable device is Zyxel VMG3312-B10A running firmware version V5.13(AAXA.7)C0 or earlier.
+To exploit this vulnerability, an attacker needs to have access to the router's web interface. The vulnerable device is Zyxel VMG3312-B10A.
 
 Steps to reproduce:
 
