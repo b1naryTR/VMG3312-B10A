@@ -1,4 +1,4 @@
-# VMG3312-B10A Unauthenticated RCE Vulnerability
+# VMG3312-B10A Authenticated RCE Vulnerability
 
 ## Overview:
 This README file describes the steps to reproduce an Unauthenticated Remote Code Execution (RCE) vulnerability in the Zyxel VMG3312-B10A router. The vulnerability allows an attacker to execute arbitrary code on the target system without any authentication.
@@ -22,7 +22,7 @@ Enter the command to execute on the target system when prompted by the code.
 The command will be executed on the target system.
 
 ## Mitigation:
-It is recommended to update the firmware to the latest version as soon as possible.
+It is recommended to update the firmware to the latest version as soon as possible. (Actually you can't do that because Zyxel refused to release an update because the device is too old)
 
 Alternatively, administrators can block external access to the router's web interface or implement access controls to limit the exposure of the vulnerability.
 
